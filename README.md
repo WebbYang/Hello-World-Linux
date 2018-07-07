@@ -15,6 +15,5 @@ To find this document, you can choose one of the following:
 * git clone
 
 ### Connect to a server
-* For mac, find Terminal then 
-  ssh -p 22 guest66@140.112.2.71 
+* For mac, find Terminal then `ssh -p 22 guest66@140.112.2.71` 
 * For Windows, PuTTY/Pietty/MobaXterm 
