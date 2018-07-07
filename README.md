@@ -10,6 +10,7 @@ This workshop will contain the stuffs include:
 
 ### Before we begin:
 To find this document, you can choose one of the following:
+link: https://github.com/WebbYang/Hello-World-Linux
 * scp
 * ftp
 * git clone
