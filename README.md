@@ -8,8 +8,13 @@ This workshop will contain the stuffs include:
 6. Download and extract files.
 7. Execute files.
 
-## Before we begin:
+### Before we begin:
 To find this document, you can choose one of the following:
-1. scp
-2. ftp
-3. git clone
+* scp
+* ftp
+* git clone
+
+### Connect to a server
+* For mac, find Terminal then 
+  ssh -p 22 guest66@140.112.2.71 
+* For Windows, PuTTY/Pietty/MobaXterm 
