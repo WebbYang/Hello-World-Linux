@@ -24,7 +24,7 @@ For Windows, pick one of the following to download: PuTTY/Pietty/MobaXterm(https
 ## To know who and where you are
 `whoami`: who you are.  
 `pwd`: where you are. (print current directory)  
-`passwd`: change password. (Don't change now). 
+`passwd`: change password. (Don't change now).  
 `echo`: print. Try `echo $0` and `echo $SHELL`.
 
 ## Look around
@@ -37,7 +37,7 @@ For Windows, pick one of the following to download: PuTTY/Pietty/MobaXterm(https
 
 ## Make folders and files
 `mkdir`: make a folder.  
-**Please name a folder to keep your following operation inside.**    
+> Please name a folder to keep your following operation inside.  
 `touch`: create a file.  
 Try to `cd` to your folder and create a file. And `ls -l` it.  
 Permission settings can be done by `chmod`.  
