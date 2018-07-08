@@ -70,4 +70,4 @@ Now, we can check for what BLAST is.
 * Hands-on https://github.com/enormandeau/ncbi_blast_tutorial
 
 ## More information
-Please check the slides in the /home/guest/guest66/linux_workshop/old_slides.
+Please check the slides in: /home/guest/guest66/linux_workshop/old_slides.
