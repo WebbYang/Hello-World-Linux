@@ -18,13 +18,14 @@ To find this document, you can choose one of the following:
 * port: 22  
 * user: guest66  
 * pass: NTUguest66  
-For mac, find Terminal then `ssh -p 22 guest66@140.112.2.71`  
-For Windows, PuTTY/Pietty/MobaXterm(https://twfunnews.com/mobaxterm/) 
+For mac, find Terminal then `ssh guest66@140.112.2.71` (-p 22).  
+For Windows, pick one of the following to download: PuTTY/Pietty/MobaXterm(https://twfunnews.com/mobaxterm/ Kevin's favoriate) 
 
 ## To know who and where you are
-`whoami`: who you are  
-`pwd`: where you are (print current directory)  
-`passwd`: change password (Don't change now)
+`whoami`: who you are.  
+`pwd`: where you are. (print current directory)  
+`passwd`: change password. (Don't change now). 
+`echo`: print. Try `echo $0` and `echo $SHELL`.
 
 ## Look around
 `ls`: list directory contents, `-alt` are commonly accompanied.  
@@ -36,11 +37,11 @@ For Windows, PuTTY/Pietty/MobaXterm(https://twfunnews.com/mobaxterm/)
 
 ## Make folders and files
 `mkdir`: make a folder.  
-Please name a folder to keep your following operation inside.  
+* Please name a folder to keep your following operation inside.  
 `touch`: create a file.  
 Try to `cd` to your folder and create a file. And `ls -l` it.  
 Permission settings can be done by `chmod`.  
-`mv`: move a file.  
+`mv`: move a file. If the path to move doesn't exist, it means to change the file name. 
 `cp`: copy a file.  
 `rm`: remove a file.
 For folder operation, using `-r`.
@@ -54,13 +55,14 @@ However, experienced programmers tend to use `vi`. For a biginner, at least you 
 ## Download and extract files
 There are some files we need to use for the following schedule.  
 For Python courses, we choose Anaconda for Python 3.6 version. Go to https://www.anaconda.com to look around.  
-`wget`: download data from given URL. Try to find the URL for Linux installer to download the script. (Should be https://repo.anaconda.com/archive/Anaconda3-5.2.0-Linux-x86_64.sh)
+`wget`: download data from given URL. Try to find the URL for Linux installer to download the script. (Should be https://repo.anaconda.com/archive/Anaconda3-5.2.0-Linux-x86_64.sh). 
+If the file is big, ftp software like Filezilla may be a better choice.  
+`tar`: to package/compress/decompress files. `-j`: through bzip2. `-c`: compress. `-x`: decompress. `-v`: show the processing filename. `-f`: filename for the output.    
+For Blast, which will be used later in this course, check ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/. We'll use ncbi-blast-2.7.1+-x64-linux.tar.gz.  
 
 ## Execute files
 We will run the the script simply by `./`.  
-Sometimes we cannot execute the file, remember to check its mode.
-We 
-For Blast, we choose ncbi-blast-2.7.1, which will be mentioned in the next step. 
+Sometimes we cannot execute the file due to permission, remember to check its mode setting. 
 
 ## To Move on
 Now, we can check for what BLAST is.  
@@ -68,4 +70,4 @@ Now, we can check for what BLAST is.
 * Hands-on https://github.com/enormandeau/ncbi_blast_tutorial
 
 ## More information
-Please check the slides.
+Please check the slides in the linux_workshop/old_slides folder.
