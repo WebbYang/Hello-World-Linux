@@ -14,12 +14,12 @@ To find this document, you can choose one of the following:
 * git clone (not necessary if you don't have git)
 
 ## Connect to a server
-* ip: 140.112.2.71  
-* port: 22  
-* user: guest66  
-* pass: NTUguest66  <br/><br/>
-For mac, find Terminal then `ssh guest66@140.112.2.71` (-p 22).  
-For Windows, pick one of the following to download: PuTTY/Pietty/MobaXterm(https://twfunnews.com/mobaxterm/ Kevin's favoriate) 
+- ip: 140.112.2.71  
+- port: 22  
+- user: guest66  
+- pass: NTUguest66  
+* For mac, find Terminal then `ssh guest66@140.112.2.71` (-p 22).  
+* For Windows, pick one of the following to download: PuTTY/Pietty/MobaXterm(https://twfunnews.com/mobaxterm/ Kevin's favoriate) 
 
 ## To know who and where you are
 * `whoami`: who you are.  
