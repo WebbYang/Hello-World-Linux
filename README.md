@@ -11,15 +11,15 @@ This workshop will contain the stuffs include:
 ### Before we begin:
 To find this document, you can choose one of the following:
 * link: https://github.com/WebbYang/Hello-World-Linux
-* git clone (not necessary)
+* git clone (not necessary if you don't have git)
 
 ## Connect to a server
-ip: 140.112.2.71  
-port: 22  
-user: guest66  
-pass: NTUguest66  
-* For mac, find Terminal then `ssh -p 22 guest66@140.112.2.71` 
-* For Windows, PuTTY/Pietty/MobaXterm 
+* ip: 140.112.2.71  
+* port: 22  
+* user: guest66  
+* pass: NTUguest66  
+For mac, find Terminal then `ssh -p 22 guest66@140.112.2.71`  
+For Windows, PuTTY/Pietty/MobaXterm(https://twfunnews.com/mobaxterm/) 
 
 ## To know who and where you are
 `whoami`: who you are  
@@ -40,6 +40,10 @@ Please name a folder to keep your following operation inside.
 `touch`: create a file.  
 Try to `cd` to your folder and create a file. And `ls -l` it.  
 Permission settings can be done by `chmod`.  
+`mv`: move a file.  
+`cp`: copy a file.  
+`rm`: remove a file.
+For folder operation, using `-r`.
 
 ## Read/write a file
 There are many ways to read a file content. If it's small, you can `cat` it. If it's big, you can `head` or `less` it.  
@@ -49,11 +53,19 @@ However, experienced programmers tend to use `vi`. For a biginner, at least you 
 
 ## Download and extract files
 There are some files we need to use for the following schedule.  
-For Python course, we choose Anaconda for Python 3.6 version.
-`wget`
-For Blast, we choose ncbi-blast-2.7.1. 
+For Python courses, we choose Anaconda for Python 3.6 version. Go to https://www.anaconda.com to look around.  
+`wget`: download data from given URL. Try to find the URL for Linux installer to download the script. (Should be https://repo.anaconda.com/archive/Anaconda3-5.2.0-Linux-x86_64.sh)
+
+## Execute files
+We will run the the script simply by `./`.  
+Sometimes we cannot execute the file, remember to check its mode.
+We 
+For Blast, we choose ncbi-blast-2.7.1, which will be mentioned in the next step. 
 
 ## To Move on
 Now, we can check for what BLAST is.  
 * To get the idea https://digitalworldbiology.com/tutorial/blast-for-beginners
 * Hands-on https://github.com/enormandeau/ncbi_blast_tutorial
+
+## More information
+Please check the slides.
