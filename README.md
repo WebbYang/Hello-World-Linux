@@ -22,29 +22,28 @@ For mac, find Terminal then `ssh guest66@140.112.2.71` (-p 22).
 For Windows, pick one of the following to download: PuTTY/Pietty/MobaXterm(https://twfunnews.com/mobaxterm/ Kevin's favoriate) 
 
 ## To know who and where you are
-`whoami`: who you are.  
-`pwd`: where you are. (print current directory)  
-`passwd`: change password. (Don't change now).  
-`echo`: print. Try `echo $0` and `echo $SHELL`.
+* `whoami`: who you are.  
+* `pwd`: where you are. (print current directory)  
+* `passwd`: change password. (Don't change now).  
+* `echo`: print. Try `echo $0` and `echo $SHELL`.
 
 ## Look around
-`ls`: list directory contents, `-alt` are commonly accompanied.  
-`cd`: change directory, `~` to home directory, `..` to upper directory, `/` to root directory.  
-`lscpu`: list cpu info.  
-`df -h`: report file system disk sapce.  
-`du -h`: space usage.  
-`man`: helps to understand the command usage in detail.
+* `ls`: list directory contents, `-alt` are commonly accompanied.  
+* `cd`: change directory, `~` to home directory, `..` to upper directory, `/` to root directory.  
+* `lscpu`: list cpu info.  
+* `df -h`: report file system disk sapce.  
+* `du -h`: space usage.  
+* `man`: helps to understand the command usage in detail.
 
 ## Make folders and files
-`mkdir`: make a folder.  
-**Please name a folder to keep your following operation inside.**  
-  
-`touch`: create a file.  
+* `mkdir`: make a folder.  
+**Please name a folder to keep your following operation inside.**    
+* `touch`: create a file.  
 Try to `cd` to your folder and create a file. And `ls -l` it.  
 Permission settings can be done by `chmod`.  
-`mv`: move a file. If the path to move doesn't exist, it means to change the file name. 
-`cp`: copy a file.  
-`rm`: remove a file.
+* `mv`: move a file. If the path to move doesn't exist, it means to change the file name. 
+* `cp`: copy a file.  
+* `rm`: remove a file.  
 For folder operation, using `-r`.
 
 ## Read/write a file
